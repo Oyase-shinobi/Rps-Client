@@ -33,7 +33,7 @@ const GAME_TYPES = [
     matches: '5 Rounds',
   },
 ];
-                                                 
+
 export default function CreateGame() {
     const { data: hash, error, isPending, writeContract } = useWriteContract();
 
